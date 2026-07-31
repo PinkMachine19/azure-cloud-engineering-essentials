@@ -1,0 +1,2 @@
+using System.Net; using Microsoft.AspNetCore.Mvc.Testing;
+public class ApplicationTests : IClassFixture<WebApplicationFactory<Program>> { readonly HttpClient client; public ApplicationTests(WebApplicationFactory<Program> factory)=>client=factory.CreateClient(); [Fact] public async Task Health_is_healthy(){var response=await client.GetAsync("/health");Assert.Equal(HttpStatusCode.OK,response.StatusCode);Assert.Contains("Healthy",await response.Content.ReadAsStringAsync());} }

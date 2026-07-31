@@ -1,0 +1,1 @@
+$commands='git','dotnet','az','node','npm'; foreach($name in $commands){$found=Get-Command $name -ErrorAction SilentlyContinue; [pscustomobject]@{Tool=$name;Installed=[bool]$found;Path=$found.Source}}

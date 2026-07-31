@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.vscode/settings.json
+node_modules/
+dist/
+.wrangler/
+.env
+*.user
+*.suo
+infrastructure/parameters/*.local.json
+infrastructure/deployments/
+TestResults/
+coverage/
+work/
