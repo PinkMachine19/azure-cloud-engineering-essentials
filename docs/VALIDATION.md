@@ -35,3 +35,10 @@ Environment: Windows, PowerShell 5.1, Git 2.55.0, Node 24.18.0, npm 11.16.0, Azu
 - Added ten plain monochrome ASCII diagrams, ten five-category mappings, and an ordinary/cloud comparison table.
 - Browser inspection confirmed diagram rendering and semantic definition lists. Existing course navigation and global styling remain in place.
 - `npm run check` passes; a focused content check confirms five scenario pairs and all ten complete mappings. No workload or Azure operations changed; the previously recorded .NET test compilation issue remains outside this content revision.
+
+## Six-job cloud overview — 2026-09-21
+
+- Added the early cloud-needs section with all six branches and vendor examples, plus the requested takeaway text.
+- The semantic, monochrome tree uses wrapping labels and smaller vendor examples. Browser inspection covered desktop and a 375px phone viewport; tree scroll width equals client width (310px), with no horizontal tree overflow.
+- Aligned the later capability recap with the same six jobs, preserving recovery and capacity under operations.
+- `npm run check` passed. No runtime code or Azure operations changed.
