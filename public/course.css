@@ -35,6 +35,7 @@ body::after { content: "DRAFT"; position: fixed; left: 50%; top: 50%; z-index: 9
 /* A wrapping, semantic tree keeps branch labels readable at phone widths. */
 .cloud-needs-tree{margin:1.5rem 0;padding:1rem;background:#000;color:#fff;border:1px solid #fff;font-family:"Cascadia Code",Consolas,monospace;line-height:1.6}
 .cloud-needs-tree .tree-root{font-weight:700}
+.cloud-needs-tree .tree-layer{font-size:.85em;border-top:1px solid #fff;padding-top:1rem;margin-top:1.25rem}
 .cloud-needs-tree ul{list-style:none;margin:0;padding:0 0 0 1.2rem}
 .cloud-needs-tree>ul{padding-left:0}
 .cloud-needs-tree li{position:relative;border-left:1px solid #fff;padding:.4rem 0 .4rem 1.2rem;overflow-wrap:anywhere}

@@ -42,3 +42,8 @@ Environment: Windows, PowerShell 5.1, Git 2.55.0, Node 24.18.0, npm 11.16.0, Azu
 - The semantic, monochrome tree uses wrapping labels and smaller vendor examples. Browser inspection covered desktop and a 375px phone viewport; tree scroll width equals client width (310px), with no horizontal tree overflow.
 - Aligned the later capability recap with the same six jobs, preserving recovery and capacity under operations.
 - `npm run check` passed. No runtime code or Azure operations changed.
+
+## Specialized managed services — 2026-09-21
+
+- Preserved the original six foundational branches and all their vendor examples exactly. Added branch 7 as higher-level capabilities, with the requested AI/ML mapping and dependency hierarchy.
+- `npm run check` and focused preservation/content checks passed. Existing wrapping monochrome tree styles are reused. No workload or Azure operations changed.
