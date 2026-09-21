@@ -47,3 +47,9 @@ Environment: Windows, PowerShell 5.1, Git 2.55.0, Node 24.18.0, npm 11.16.0, Azu
 
 - Preserved the original six foundational branches and all their vendor examples exactly. Added branch 7 as higher-level capabilities, with the requested AI/ML mapping and dependency hierarchy.
 - `npm run check` and focused preservation/content checks passed. Existing wrapping monochrome tree styles are reused. No workload or Azure operations changed.
+
+## Lesson introductions and completion points — 2026-09-21
+
+- Added a shared introduction and completion checkpoint across 99 session pages. Sessions 1–4 use tailored goals, material descriptions, source links, reading estimates, and stop/resume guidance. Sessions 5–99 explicitly describe planning previews rather than completed lessons.
+- Source descriptions distinguish author experience and AI-assisted drafting from official references and recorded validation. Reading estimates use source-text word counts and exclude hands-on work.
+- `npm run check` passed. A focused check verified exactly one introduction and checkpoint per page, all local fragment targets, and developed/planned source wording. No runtime or Azure operations changed.
