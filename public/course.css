@@ -17,3 +17,17 @@ body::after { content: "DRAFT"; position: fixed; left: 50%; top: 50%; z-index: 9
 .diagram svg :is(rect,circle,ellipse,path,line,polyline,polygon):nth-of-type(6n + 5) { stroke:var(--gold) !important; }
 .diagram svg :is(rect,circle,ellipse,path,line,polyline,polygon):nth-of-type(6n) { stroke:var(--coral) !important; }
 .diagram svg marker path { fill:var(--azure) !important; }
+
+/* Plain technical diagrams for the paired systems walkthrough. */
+.system-diagram{margin:1.5rem 0;border:1px solid #fff;background:#000;color:#fff;padding:1rem;min-width:0}
+.system-diagram pre{margin:0;padding:0;border:0;border-radius:0;background:#000;color:#fff;white-space:pre-wrap;overflow-wrap:anywhere}
+.system-diagram figcaption{margin-top:1rem;color:#fff;font-size:.85rem}
+.system-model{margin:1rem 0}
+.system-model dt{font-weight:700;margin-top:.75rem}
+.system-model dd{margin:.15rem 0 .75rem}
+.system-comparison{overflow-x:auto}
+.system-comparison table{width:100%;border-collapse:collapse}
+.system-comparison th,.system-comparison td{border:1px solid var(--line);padding:.75rem;text-align:left;vertical-align:top}
+.system-capabilities{margin:1.5rem 0;color:#fff}
+.system-capabilities .fact{border:1px solid #fff;background:#000;color:#fff}
+.system-capabilities figcaption{color:var(--muted);font-size:.9rem;margin-top:.75rem}
