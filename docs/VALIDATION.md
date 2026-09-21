@@ -19,3 +19,12 @@ Environment: Windows, PowerShell 5.1, Git 2.55.0, Node 24.18.0, npm 11.16.0, Azu
 - Sessions 4–98 labs: planning only.
 
 “Implemented” means the lesson or scaffold exists. It does not imply technical validation or personal completion.
+
+## First-principles session insertion — 2026-09-21
+
+- Environment: Windows, PowerShell 7, Node 24.18.0, npm 11.16.0, .NET SDK 10.0.302.
+- `npm run check` passed: 99 generated sessions, manifest assertions, and all internal file links.
+- Original 98 titles retain their order; original three authored lessons are unchanged apart from session numbering (now 2–4).
+- Browser inspection confirmed existing styling and the new interactive knowledge check.
+- `dotnet test` was attempted; the unchanged test project fails to compile with missing xUnit symbols (`IClassFixture`, `Fact`). Application build succeeded. No Azure operations were run.
+- Earlier dated records above describe the pre-insertion numbering. New Session 1 is conceptual; planned labs are now Sessions 5–99.

@@ -1,5 +1,5 @@
 export const layers = [
-  ['Cloud foundations', ['Course orientation and the system we will build','Cloud responsibility: on-premises, IaaS, PaaS, and SaaS','How Azure organizes resources','Regions, availability zones, resilience, scalability, and elasticity','Cost fundamentals, budgets, and cleanup discipline']],
+  ['Cloud foundations', ['Cloud From First Principles','Course orientation and the system we will build','Cloud responsibility: on-premises, IaaS, PaaS, and SaaS','How Azure organizes resources','Regions, availability zones, resilience, scalability, and elasticity','Cost fundamentals, budgets, and cleanup discipline']],
   ['Compute', ['Run the application locally and establish the baseline','Deploy the application to an Azure virtual machine','Host the .NET application with IIS on the VM','Measure the management burden introduced by IaaS','Deploy the same application to Azure App Service','Compare VM hosting with PaaS hosting','Scale up, scale out, health checks, and deployment slots','Containerize the application','Deploy with Azure Container Apps','Place AKS in the compute decision map','Add an Azure Functions background task','Choose a compute model for the workload']],
   ['Networking', ['Follow a request from the user to the application','IP addresses, ports, protocols, and traffic flow','Azure virtual networks and address spaces','Subnets and workload separation','Network Security Groups','Routes and route tables','Azure DNS and name resolution','Public endpoints versus private connectivity','Service endpoints','Private endpoints and Azure Private Link','VNet integration for App Service','VNet peering','Load Balancer, Application Gateway, and Azure Front Door','Web Application Firewall','VPN, hybrid connectivity, and ExpressRoute foundations','Diagnose a broken network path']],
   ['Data and storage', ['Storage accounts and storage architecture','Blob, Files, Queues, Tables, and managed disks','Storage redundancy and access tiers','Add Blob Storage to the application','Add Azure SQL Database','Managed database versus a database hosted on a VM','Backups, retention, point-in-time restore, and recovery','Secure database and storage connectivity']],
@@ -14,8 +14,8 @@ export const layers = [
 let id = 0;
 export const sessions = layers.flatMap(([layer, titles], layerIndex) => titles.map((title, index) => ({
   id: ++id, layer: layerIndex + 1, layerTitle: layer, title, indexInLayer: index + 1,
-  status: id <= 3 ? 'implemented' : 'planned',
-  technicalValidation: id <= 2 ? 'partially-validated' : 'not-validated',
+  status: id <= 4 ? 'implemented' : 'planned',
+  technicalValidation: id >= 2 && id <= 3 ? 'partially-validated' : 'not-validated',
   personallyCompleted: false, published: false
 })));
 
@@ -29,16 +29,16 @@ export const statusDefinitions = {
 };
 
 export const refs = {
-  s1: [
+  s2: [
     ['Install .NET on Windows','https://learn.microsoft.com/dotnet/core/install/windows'],
     ['Azure CLI installation','https://learn.microsoft.com/cli/azure/install-azure-cli-windows'],
     ['Azure cost management documentation','https://learn.microsoft.com/azure/cost-management-billing/']
   ],
-  s2: [
+  s3: [
     ['Shared responsibility in the cloud','https://learn.microsoft.com/azure/security/fundamentals/shared-responsibility'],
     ['Cloud computing service models','https://learn.microsoft.com/training/modules/describe-cloud-service-types/']
   ],
-  s3: [
+  s4: [
     ['Azure fundamental concepts','https://learn.microsoft.com/azure/cloud-adoption-framework/ready/considerations/fundamental-concepts'],
     ['Manage Azure subscriptions with Azure CLI','https://learn.microsoft.com/cli/azure/manage-azure-subscriptions-azure-cli'],
     ['Manage resource groups with Azure CLI','https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-cli'],

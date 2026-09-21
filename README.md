@@ -10,9 +10,9 @@ Many cloud tutorials teach isolated services or certification terminology. This 
 
 ## Current state
 
-- The complete course structure, navigation, and ten-layer/98-session map exist.
-- Sessions 1–3 are initially developed.
-- Sessions 4–98 are structured planning pages, not fabricated lessons.
+- The complete course structure, navigation, and ten-layer/99-session map exist.
+- Sessions 1–4 are initially developed.
+- Sessions 5–99 are structured planning pages, not fabricated lessons.
 - The author is personally walking through, validating, correcting, and improving the material.
 - The course is not completely validated. See [docs/VALIDATION.md](docs/VALIDATION.md).
 
@@ -44,7 +44,7 @@ These states are independent. Implemented does not mean validated.
 
 ## Prerequisites
 
-PowerShell 7, Git, Node.js 22 or newer, npm, .NET 8 SDK, Azure CLI, and an Azure account for Session 3 onward.
+PowerShell 7, Git, Node.js 22 or newer, npm, .NET 8 SDK, Azure CLI, and an Azure account for Session 4 onward.
 
 ## Run locally
 
